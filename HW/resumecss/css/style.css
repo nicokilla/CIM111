@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Roboto+Mono');
+
+
+
+
+
 /* css comment*/
 
 
@@ -10,9 +16,20 @@ body{
 
 
 
-        Font-family: sans-serif;
+      font-family: 'Noto Serif KR', sans-serif;
 
  }
+
+#direction{
+  text-decoration: red;
+
+
+
+}
+
+
+
+
 
  #name{
    text-align: center;
@@ -20,6 +37,7 @@ body{
    background-color: grey;
 
 
+   font-family: 'Roboto Mono', monospace;
 
 
  }
@@ -48,15 +66,15 @@ body{
  a:hover{
 
     color:red;
-    text-decoration: blue;
+    text-decoration: none;
 
  }
 
- a:visited{
-    color: green;
+ /* a:visited{
+    color: pink;
 
 
- }
+ } */
 
     /*
 
