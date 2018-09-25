@@ -41,14 +41,14 @@ body{
 
  a{
    text-decoration: none;
-   color:purple;
+   color:black;
    font-weight: 900;
  }
 
  a:hover{
 
     color:red;
-    text-decoration: underline;
+    text-decoration: black;
 
  }
 
