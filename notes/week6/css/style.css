@@ -13,14 +13,14 @@
 }
 
 
-
 #box{
     background-color: pink;
 
     width: 180px;
-    height: 180px;
-    padding: 10px;
+    height: auto;
 
+
+    padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -45,9 +45,43 @@
 
     margin: 0 auto;
 
+}
+
+
+header{
+  background-color: orange;
+      width: 960px;
+      height: 100px;
+      margin: 0 auto;
+      margin-top: -25px;
 
 
 
+}
+
+
+main{
+    background-color: black;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -16px;
+
+
+
+
+
+
+}
+
+
+footer{
+
+  background-color: orange;
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -16px;
 
 
 
