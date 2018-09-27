@@ -21,5 +21,18 @@
     height: 180px;
     padding: 10px;
 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    border-style: dashed;
+
+    border-width: 5px;
+    border-color: red;
+    border: solid blue 5px;
+
+
+
+
 
 }
