@@ -51,7 +51,7 @@
 header{
   background-color: orange;
       width: 960px;
-      height: 100px;
+      height: 150px;
       margin: 0 auto;
       margin-top: -25px;
 
@@ -68,10 +68,6 @@ main{
     margin-top: -16px;
 
 
-
-
-
-
 }
 
 
@@ -82,6 +78,53 @@ footer{
     height: 100px;
     margin: 0 auto;
     margin-top: -16px;
+
+}
+
+
+nav{
+  width: 250px;
+  margin: 0 auto;
+  background-color: pink;
+
+
+
+
+}
+
+nav ul{
+
+
+
+
+
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
+
+
+
+
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+
+
+
+
+}
+
+nav ul li a:hover{
+    color: grey;
+
 
 
 
