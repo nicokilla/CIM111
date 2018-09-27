@@ -20,13 +20,29 @@ body{
 
  }
 
-#direction{
+/* #direction{
   text-decoration: red;
 
 
 
-}
+} */
 
+
+
+
+
+#box{
+      color: white;
+
+
+    background-color: grey;
+
+    width: 220px;
+    height: 180px;
+    padding: 10px;
+
+
+}
 
 
 
@@ -43,7 +59,12 @@ body{
  }
 
 
+ #colorchange{
+     color: black;
+     text-align: center;
 
+
+ }
 
 
 
@@ -103,6 +124,32 @@ ul li{
 
 
 }
+
+
+#info{
+      color: white;
+      text-align: center;
+      background-color: grey;
+
+
+
+}
+
+
+#jobs{
+    background-color: rgb(240,248,255);
+
+
+}
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
 
 /*
 
