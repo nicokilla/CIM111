@@ -126,6 +126,25 @@ ul li{
 }
 
 
+.one{
+  list-style: circle;
+
+
+}
+
+.two{
+    list-style: square inside;
+
+
+
+}
+
+
+
+
+
+
+
 #info{
       color: white;
       text-align: center;
