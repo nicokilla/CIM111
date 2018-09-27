@@ -27,9 +27,26 @@
 
     border-style: dashed;
 
-    border-width: 5px;
+    border-width: 10px 5px 10px 5px;
     border-color: red;
     border: solid blue 5px;
+
+    /* border: solid blue; */
+
+    margin-left: 50px;
+
+    margin-bottom: 50px;
+
+    margin-top: 50px;
+
+    margin-right: 50px;
+
+    margin: 50px 50px 50px 50px;
+
+    margin: 0 auto;
+
+
+
 
 
 
