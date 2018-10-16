@@ -1,0 +1,193 @@
+#colorchange{
+    color: peru;
+
+
+}
+
+
+.backgroundchange{
+
+    background-color: red;
+
+
+}
+
+p{
+ color: white;
+
+vertical-align: top;
+}
+
+#box{
+    background-color: pink;
+
+    width: 180px;
+    height: auto;
+
+
+    padding: 10px;
+
+    border: solid blue;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    /* margin: o auto; */
+
+
+
+
+
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    border-style: dashed;
+
+    border-width: 10px 5px 10px 5px;
+    border-color: red;
+    border: solid blue 5px;
+
+    /* border: solid blue; */
+
+    /* margin-left: 50px;
+
+    margin-bottom: 50px;
+
+    margin-top: 50px;
+
+    margin-right: 50px;
+
+    margin: 50px 50px 50px 50px;
+
+    margin: 0 auto; */
+
+}
+
+
+
+
+#box2{
+    background-color: orange;
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+
+
+
+ vertical-align: top;
+
+
+
+}
+
+
+.cols{
+      width: 120px;
+      padding: 10px;
+      height: 120px;
+      background-color: aqua;
+      display: inline-block;
+
+
+
+
+
+}
+
+#container1{
+
+  background-color: purple;
+  width: 700px;
+  margin: 0 auto;
+  vertical-align: top;
+
+
+
+}
+
+header{
+  background-color: orange;
+      width: 960px;
+      height: 150px;
+      margin: 0 auto;
+      margin-top: -25px;
+
+
+
+}
+
+
+main{
+    background-color: black;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -16px;
+
+
+}
+
+
+footer{
+
+  background-color: orange;
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -16px;
+
+}
+
+
+nav{
+  width: 250px;
+  margin: 0 auto;
+  background-color: pink;
+
+
+
+
+}
+
+nav ul{
+
+
+
+
+
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
+
+
+
+
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+
+
+
+
+}
+
+nav ul li a:hover{
+    color: grey;
+
+
+
+
+
+}

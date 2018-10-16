@@ -1,0 +1,98 @@
+@import "desktop.css";
+
+#grid1{
+display: grid;
+grid-template-areas: "col1 col2";
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 100%;
+text-align: center;
+
+}
+
+
+#grid2{
+display: grid;
+grid-template-areas: "col3" "col4" "col5";
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 100%;
+margin-top: 10px;
+
+}
+/*
+
+header, footer{
+  width: 80%;
+  height: 100px;
+  background-color: coral;
+}
+
+main{
+  width: 80%;
+  height: auto;
+  background-color: grey;
+
+
+}
+.images{
+height: 160px;
+display: block;
+margin: 10px auto;
+
+
+}
+
+
+
+
+
+
+
+#col1{
+grid-area: col1;
+background-color: aqua;
+height: auto;
+}
+
+
+#col2{
+grid-area: col2;
+background-color: lavender;
+height: auto;
+
+
+
+}
+
+#grid2{
+display: grid;
+grid-template-areas: "col3 col4 col5";
+grid-template-rows: 200px;
+grid-template-columns: 33.3% 33.3% 33.3%;
+margin-top: 10px;
+
+}
+
+#col3{
+grid-area: col3;
+background-color: lavender;
+height: 200px;
+
+
+
+}
+#col4{
+grid-area: col4;
+background-color: lavender;
+height: 200px;
+
+
+
+}
+#col5{
+grid-area: col5;
+background-color: lavender;
+height: 200px;
+
+
+
+} */

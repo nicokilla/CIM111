@@ -1,0 +1,104 @@
+
+
+
+
+
+header{
+      background-color: red;
+      width: 80%;
+      height: 155px;
+      margin: 0 auto;
+
+}
+
+
+
+footer{
+      background-color: red;
+      width: 80%;
+      height: 100px;
+      margin: 0 auto;
+
+}
+
+.left{
+  display: block;
+  margin-left: ;
+  margin-right: auto;
+
+}
+
+
+.home{
+  display: block;
+  margin-left: ;
+  margin-right: ;
+
+}
+
+
+main{
+
+background-color: white;
+width: 80%;
+height: auto;
+margin: 0 auto;
+
+}
+
+nav{
+  width: 500px;
+  margin: 0 auto;
+  background-color: grey;
+
+
+
+
+}
+
+nav ul{
+
+
+
+
+
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
+
+
+
+
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+
+
+
+
+}
+
+nav ul li a:hover{
+    color: black;
+
+
+
+
+
+}
+
+body{
+  background-color: grey;
+
+
+
+
+}
