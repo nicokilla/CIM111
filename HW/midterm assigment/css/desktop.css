@@ -16,7 +16,7 @@ header{
 footer{
       background-color: red;
       width: 80%;
-      height: 100px;
+      height: 500px;
       margin: 0 auto;
 
 }
@@ -29,14 +29,26 @@ footer{
 }
 
 
-.home{
+.home1{
   display: block;
-  margin-left: ;
+  margin-left: left;
   margin-right: ;
 
 }
 
+.hom2{
+  display: block;
+  margin-left: right;
+  margin-right: ;
+  width: ;
 
+}
+.home3{
+  display: block;
+  margin-left: center;
+  margin-right: ;
+
+}
 main{
 
 background-color: white;
