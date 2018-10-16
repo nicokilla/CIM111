@@ -23,12 +23,24 @@ footer{
 
 .left{
   display: block;
-  margin-left: ;
-  margin-right: auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+
+
 
 }
 
+.heading{
+  background-color: blue;
+  text-align: center;
+  text-decoration: white;
 
+
+
+
+
+
+}
 .home1{
   display: block;
   margin-left: left;
@@ -60,7 +72,7 @@ margin: 0 auto;
 nav{
   width: 500px;
   margin: 0 auto;
-  background-color: grey;
+  background-color: blue;
 
 
 
