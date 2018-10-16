@@ -28,12 +28,15 @@ footer{
 
 
 
+
 }
 
 .heading{
   background-color: blue;
   text-align: center;
   text-decoration: white;
+  color: white;
+
 
 
 
@@ -45,6 +48,7 @@ footer{
   display: block;
   margin-left: left;
   margin-right: ;
+  display: inline-block;
 
 }
 
@@ -52,12 +56,14 @@ footer{
   display: block;
   margin-left: right;
   margin-right: ;
+  display: inline-block;
 
 }
 .home3{
   display: block;
   margin-left: center;
   margin-right: left;
+  display: inline-block;
 
 }
 main{
