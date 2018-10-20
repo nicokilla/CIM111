@@ -2,10 +2,11 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Exo');
+
 header{
       background-color: lightgrey;
-      width: 190%;
-      height: 80px;
+      width: 80%;
+      height: 0 auto;
       margin: 0 auto;
 
 }
@@ -13,10 +14,13 @@ header{
 
 
 footer{
-      background-color: lightgrey;
+      background-color: grey;
       width: 80%;
-      height: 80px;
+      height: 90px;
       margin: 0 auto;
+      margin-top: 406px;
+
+
 
 }
 
@@ -50,7 +54,7 @@ margin-right: 10px;
 
 
 
-padding-left: 30px;
+padding-left: -20px;
 
 
 
@@ -60,7 +64,7 @@ padding-left: 30px;
   font-family: 'Playfair Display', serif;
   /* font-family: 'Fjalla One', sans-serif; */
 font-size: 40px;
-margin-right: 30px;
+margin-right: 380px;
 
 
 }
@@ -68,12 +72,22 @@ margin-right: 30px;
 
   font-family: 'Exo', sans-serif;
 font-size: 15px;
-/* margin-right: 20px;
-margin-left: 10px; */
-padding-left: 52px;
+/* margin-right: 20px;*/
+margin-left: 0 auto;
+padding-left: 206px;
+/* padding-right: 50px; */
 padding-top: 10px;
 
+
 /* font-size: 15px; */
+}
+.title4{
+
+  font-family: 'Exo', sans-serif;
+font-size: 50px;
+
+
+
 }
 .home1{
   display: block;
@@ -95,14 +109,26 @@ padding-top: 10px;
   margin-left: center;
   margin-right: left;
   display: inline-block;
+  margin: 0 auto;
 
 }
 main{
 
 background-color: lightgrey;
 width: 80%;
-height: 0 auto;
+height:  0 auto;
 margin: 0 auto;
+
+}
+/* body{
+  background-color: lightgrey;
+  width: 80%;
+  height:  0 auto;
+  margin: 0 auto; */
+
+
+
+
 
 }
 
@@ -117,6 +143,7 @@ nav{
 }
 
 nav ul{
+  margin-left:
 
 
 
@@ -128,6 +155,7 @@ nav ul{
 nav ul li{
   list-style: none;
   display: inline-block;
+
 
 
 
@@ -169,10 +197,6 @@ h4{
 
 
 
-
-
-
-
 }
 
 
@@ -181,13 +205,26 @@ h4{
 
 
 .images{
-height: 100px;
+height: 170px;
+width: 0 auto;
+
 display: block;
-/* margin: 10px auto; */
+margin: 0 auto;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-top: 5px;
 
 
 }
-
+h1{
+  text-decoration: overline underline;
+  text-align: center;
+  /* hover{
+ a:hover{ */
+color: white;
+  }
+}
 
 
 
@@ -195,23 +232,30 @@ display: block;
 
 #grid1{
 display: grid;
-grid-template-areas: "col1 col2";
-/* grid-template-rows: 200px;
-grid-template-columns: 480px 480px; */
+width: 80%;
+grid-template-areas: "col1 col2 col6";
+grid-template-rows: 0 auto;
+grid-template-columns: 480px 480px;
+
+
 
 }
 
 #col1{
 grid-area: col1;
-background-color: grey;
-height: 50px;
+width: 20%;
+background-color: red;
+
+
+
 }
 
 
 #col2{
 grid-area: col2;
-background-color: grey;
-height: 50px;
+width: 80%;
+background-color: purple;
+
 
 
 
@@ -219,33 +263,42 @@ height: 50px;
 
 #grid2{
 display: grid;
+width: 80%;
 grid-template-areas: "col3 col4 col5";
-/* grid-template-rows: 200px; */
-/* grid-template-columns: 320px 320px 320px;
-margin-top: 10px; */
+grid-template-rows: 0 auto;
+grid-template-columns: 480px 480px;
+
+
+
+
+
+
 
 }
 
 #col3{
 grid-area: col3;
+width: 20%;
 background-color: grey;
-height: 50px;
+
 
 
 
 }
 #col4{
 grid-area: col4;
+width: 20%;
 background-color: grey;
-height: 50px;
+
 
 
 
 }
 #col5{
+width: 50%;
 grid-area: col5;
 background-color: grey;
-height: 50px;
+
 
 
 
@@ -253,9 +306,50 @@ height: 50px;
 
 #col6{
 grid-area: col5;
+width: 80%;
 background-color: grey;
-height: 50px;
 
 
+
+
+}
+
+
+.foot{
+
+  text-align: center;
+
+}
+#box{
+    background-color: red;
+
+    width: 80%;
+    height: auto;
+
+
+    padding: 10px;
+    padding-top: -10px;
+    padding-bottom: 10px;
+
+
+    border-style: dashed;
+
+    border-width: 10px 5px 10px 5px;
+    border-color: red;
+    border: solid blue 5px;
+
+    border: solid blue;
+
+    margin-left: 50px;
+
+    margin-bottom: 50px;
+
+    margin-top: 50px;
+
+    margin-right: 50px;
+
+    margin: 50px 50px 50px 50px;
+
+    margin: 0 auto;
 
 }
