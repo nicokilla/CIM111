@@ -16,9 +16,9 @@ header{
 footer{
       background-color: grey;
       width: 80%;
-      height: 90px;
+      height: 10px;
       margin: 0 auto;
-      margin-top: 406px;
+      /* margin-top: 0 auto; */
 
 
 
@@ -74,7 +74,7 @@ margin-right: 380px;
 font-size: 15px;
 /* margin-right: 20px;*/
 margin-left: 0 auto;
-padding-left: 206px;
+padding-left: 163px;
 /* padding-right: 50px; */
 padding-top: 10px;
 
@@ -116,7 +116,7 @@ main{
 
 background-color: lightgrey;
 width: 80%;
-height:  0 auto;
+height:  480px;
 margin: 0 auto;
 
 }
@@ -205,10 +205,10 @@ h4{
 
 
 .images{
-height: 170px;
+height: 440px;
 width: 0 auto;
 
-display: block;
+display: inline-block;
 margin: 0 auto;
 padding-left: 5px;
 padding-right: 5px;
@@ -234,8 +234,9 @@ color: white;
 display: grid;
 width: 80%;
 grid-template-areas: "col1 col2 col6";
-grid-template-rows: 0 auto;
+grid-template-rows: 200px;
 grid-template-columns: 480px 480px;
+height: 10px;
 
 
 
@@ -245,6 +246,7 @@ grid-template-columns: 480px 480px;
 grid-area: col1;
 width: 20%;
 background-color: red;
+height: 10px;
 
 
 
@@ -253,9 +255,9 @@ background-color: red;
 
 #col2{
 grid-area: col2;
-width: 80%;
-background-color: purple;
-
+width: 50%;
+background-color: grey;
+height: 100px;
 
 
 
@@ -267,6 +269,7 @@ width: 80%;
 grid-template-areas: "col3 col4 col5";
 grid-template-rows: 0 auto;
 grid-template-columns: 480px 480px;
+height: 10px;
 
 
 
@@ -280,6 +283,7 @@ grid-template-columns: 480px 480px;
 grid-area: col3;
 width: 20%;
 background-color: grey;
+height: 10px;
 
 
 
@@ -289,15 +293,17 @@ background-color: grey;
 grid-area: col4;
 width: 20%;
 background-color: grey;
+height: 10px;
 
 
 
 
 }
 #col5{
-width: 50%;
+width: 20%;
 grid-area: col5;
 background-color: grey;
+height: 10px;
 
 
 
@@ -306,8 +312,9 @@ background-color: grey;
 
 #col6{
 grid-area: col5;
-width: 80%;
+width: 20%;
 background-color: grey;
+height: 10px;
 
 
 
@@ -318,6 +325,9 @@ background-color: grey;
 .foot{
 
   text-align: center;
+
+  padding-top: 0 auto;
+
 
 }
 #box{
@@ -352,4 +362,55 @@ background-color: grey;
 
     margin: 0 auto;
 
+}
+
+.picture-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+  justify-items: center;
+  grid-gap: 5px;
+  grid-row-gap: 0px;
+}
+
+.grid-box img{
+  width: 100%;
+}
+.nico{
+
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Fjalla One', sans-serif;
+
+
+
+font-size: 40px;
+margin-right: 10px;
+
+
+
+padding-left: -20px;
+
+
+
+}
+.nico2{
+
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Fjalla One', sans-serif; */
+font-size: 40px;
+margin-right: 380px;
+
+
+}
+.nico3{
+
+  font-family: 'Exo', sans-serif;
+font-size: 15px;
+/* margin-right: 20px;*/
+margin-left: 0 auto;
+padding-left: 163px;
+/* padding-right: 50px; */
+padding-top: 10px;
+
+
+/* font-size: 15px; */
 }
