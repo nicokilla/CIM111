@@ -16,7 +16,7 @@ header{
 footer{
       background-color: grey;
       width: 80%;
-      height: 10px;
+      height: 80px;
       margin: 0 auto;
       margin-top: 0 auto;
 
@@ -84,7 +84,7 @@ padding-top: 10px;
 .title4{
 
   font-family: 'Exo', sans-serif;
-font-size: 50px;
+  font-size: 50px;
 
 
 
@@ -205,15 +205,14 @@ h4{
 
 
 .images{
-height: 340px;
-width: 0 auto;
-
-/* display: inline-block;
+height: 371px;
 margin: 0 auto;
+
+display: ;
 padding-left: 5px;
 padding-right: 5px;
 padding-bottom: 5px;
-padding-top: 5px; */
+padding-top: 5px;
 
 
 }
@@ -233,9 +232,10 @@ color: white;
 #grid1{
 display: grid;
 /* width: 80%; */
-grid-template-areas: "col1 col2 col6";
-grid-template-rows: 200px;
-grid-template-columns: 280px 280px 280px;
+grid-template-areas: "col1 col2";
+grid-template-rows: 600px;
+grid-template-columns: 280px 280px;
+/* grid-column-start: auto; */
 
 
 
@@ -244,8 +244,8 @@ grid-template-columns: 280px 280px 280px;
 
 #col1{
 grid-area: col1;
-width: 40%;
-background-color: red;
+/* width: 40%; */
+background-color: grey;
 /* height: 10px; */
 
 
@@ -255,20 +255,22 @@ background-color: red;
 
 #col2{
 grid-area: col2;
-width: 40%;
+/* width: 40%; */
 background-color: grey;
 /* height: 100px; */
 
+padding-right: 1000px;
+
 
 
 }
 
-#grid2{
+/* #grid2{
 display: grid;
 
-grid-template-areas: "col3 col4 col5";
-grid-template-rows: 0 auto;
-grid-template-columns: 280px 280px 280px;
+grid-template-areas: "col3 col4";
+grid-template-rows: 200px;
+grid-template-columns: 280px 280px;
 
 
 
@@ -277,49 +279,8 @@ grid-template-columns: 280px 280px 280px;
 
 
 
-}
 
-#col3{
-grid-area: col3;
-/* width: 20%; */
-background-color: grey;
-/* height: 10px; */
-
-
-
-
-}
-#col4{
-grid-area: col4;
-/* width: 20%; */
-background-color: grey;
-/* height: 10px; */
-
-
-
-
-}
-#col5{
-/* width: 20%; */
-grid-area: col5;
-background-color: grey;
-/* height: 10px; */
-
-
-
-
-}
-
-#col6{
-grid-area: col5;
-width: 40%;
-background-color: grey;
-/* height: 10px; */
-
-
-
-
-}
+} */
 
 
 .foot{
@@ -331,7 +292,7 @@ background-color: grey;
 
 }
 #box{
-    background-color: red;
+    background-color: lightgrey;
 
     width: 80%;
     height: auto;
@@ -346,9 +307,9 @@ background-color: grey;
 
     border-width: 10px 5px 10px 5px;
     border-color: red;
-    border: solid blue 5px;
+    border: solid grey 5px;
 
-    border: solid blue;
+    border: solid grey;
 
     margin-left: 50px;
 
@@ -448,7 +409,21 @@ height: 500px;
 }
 .vids{
 
-width: 80%;
+  background-color: lightgrey;
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+  padding-right: 1500px;
+
+
+
+}
+.move{
+
+padding-right: 10000px;
+
+
+
 
 
 

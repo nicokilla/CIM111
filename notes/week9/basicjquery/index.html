@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+
+
+<title>intro to java script</title>
+
+
+
+  </head>
+<body>
+  <h1>intro to javascript</h1>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+ <!-- remote version -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+      //all jquery code should be placed below
+
+      $("body").css("background-color","purple");
+      $("h1").css("color","white");
+      $("h1").css("font-size","40px");
+      $("#textchange").css("background-color","pink");
+      $("#textchange").html("i love javascript");
+
+      $("textchange").click(function(){
+
+        $("body").css("background-color", "orange")
+
+
+            //end of textchange click
+
+
+
+      });
+
+
+
+
+
+
+
+
+
+  });//end of document ready
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
