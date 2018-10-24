@@ -419,9 +419,9 @@ height: 500px;
 
 }
 .move{
-
+height: 400px
 padding-left:  250;
-display: inline-block;
+
 
 
 
@@ -429,10 +429,26 @@ display: inline-block;
 
 
 }
-.move2{
+.red{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+
+
+
+
+
+}
+.move{
 
 padding-left:  ;
 display: inline-block;
+font-size: 20px;
 
 
 
