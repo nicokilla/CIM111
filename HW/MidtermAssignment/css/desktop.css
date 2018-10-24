@@ -16,7 +16,7 @@ header{
 footer{
       background-color: grey;
       width: 80%;
-      height: 80px;
+      height: 140px;
       margin: 0 auto;
       margin-top: 0 auto;
 
@@ -299,17 +299,17 @@ grid-template-columns: 280px 280px;
 
 
     padding: 10px;
-    padding-top: -10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 
 
-    border-style: dashed;
+    /* border-style: dashed; */
 
     border-width: 10px 5px 10px 5px;
     border-color: red;
     border: solid grey 5px;
 
-    border: solid grey;
+    border: solid black;
 
     margin-left: 50px;
 
@@ -413,18 +413,79 @@ height: 500px;
   width: 80%;
   height: 0 auto;
   margin: 0 auto;
-  padding-right: 1500px;
+
 
 
 
 }
 .move{
 
-padding-right: 10000px;
+padding-left:  250;
+display: inline-block;
 
 
 
 
 
+
+}
+.move2{
+
+padding-left:  ;
+display: inline-block;
+
+
+
+
+
+
+}
+
+
+.center{
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+
+
+
+
+}
+h4{
+
+display: inline-block;
+text-align: center;
+
+
+
+
+}
+.like{
+
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Fjalla One', sans-serif;
+
+  display: inline-block;
+  text-align: center;
+
+
+font-size: 40px;
+/* margin-right: 10px; */
+
+
+
+/* padding-left: ; */
+
+
+
+}
+.like2{
+
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Fjalla One', sans-serif; */
+font-size: 40px;
+/* margin-right: ; */
+display: inline-block;
+text-align: center;
 
 }
