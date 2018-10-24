@@ -9,10 +9,24 @@ header{
       height: 0 auto;
       margin: 0 auto;
 
+
 }
 
 
+img{
+max-width: 100%;
+height: auto;
 
+
+
+}
+/* iframe{
+max-width: 100%;
+height: auto;
+
+
+
+} */
 footer{
       background-color: grey;
       width: 80%;
@@ -68,6 +82,11 @@ margin-right: 380px;
 
 
 }
+
+@@import "title title2";
+
+
+
 .title3{
 
   font-family: 'Exo', sans-serif;
@@ -161,6 +180,7 @@ nav ul li{
 
 
 
+
 }
 
 
@@ -174,7 +194,8 @@ nav ul li a{
 
 }
 
-nav ul li a:hover{
+nav ul li a:hover,
+nav ul li a:focus{
     color: white;
     text-decoration: overline underline;
 
@@ -184,6 +205,16 @@ nav ul li a:hover{
 
 
 }
+
+
+@@media (min-width 700px) {
+
+
+}
+
+
+
+
 
 body{
   background-color: lightgrey;
