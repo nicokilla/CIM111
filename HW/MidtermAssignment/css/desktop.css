@@ -327,7 +327,7 @@ grid-template-columns: 280px 280px;
 
 .picture-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px,1fr));
   justify-items: center;
   grid-gap: 5px;
   grid-row-gap: 0px;
