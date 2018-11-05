@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>How to skateboard</title>
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 600px)">
+
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)" >
+
+    <meta charset="utf-8">
+
+    <style>
+      /* .box{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+      } */
+    </style>
+
+
+
+
+    <!-- <ul>
+
+      <li class="setup" id="toggle">TOOLS</li>
+      <li class="setup">BOARDS</li>
+      <li class="setup">GRIPTAPE</li>
+      <li class="setup">TRUCKS</li>
+      <li class="setup">WHEELS/BEARINGS</li>
+
+
+
+
+
+    </ul> -->
+
+
+
+  </head>
+
+
+  <body>
+
+<header>
+
+
+  <h1 class="pizza" id="changeText">HOW TO SET UP A SKATEBOARD</h1>
+
+</header>
+
+
+    <h2 id="info"><u>THE SET UP</u></h2>
+
+<div id="recepticle"></div>
+    <!-- <h2>Show, Hide, and Toggle</h2> -->
+
+
+
+<!-- <img id="image1" src="images/image3.jpg" height="300" class="Intro"> -->
+
+
+<div id="imageRecepticle">
+
+
+
+<img id="image1" src="images/image3.jpg" height="150" class="Intro">
+
+
+
+
+
+
+</div>
+
+
+
+
+<div>
+
+<h2 id="info"><u>T-TOOLS AND BOLTS</u></h2>
+
+<!-- <img id="image2" src="" width="100"> -->
+
+<img src="images/image1.jpg" height="150" class="lazy1"/>
+
+<img src="images/image2.jpg" height="150" class="lazy1"/>
+
+</div>
+
+
+
+
+
+
+
+
+    <div>
+      <h2 id="info"><u>BOARD/GRIPTAPE</u></h2>
+
+<img src="images/image4.jpg" height="150"  class="lazy"/>
+
+<img src="images/image5.jpg" height="150" class="lazy"/>
+
+
+
+    </div>
+
+    <div>
+      <h2 id="info"><u>TRUCKS</u></h2>
+
+<img src="images/image6.jpg" height="200"
+ class="Intro"/>
+
+<!-- <img src="images/image5.jpg" height="300" class="lazy"/> -->
+
+
+
+    </div>
+    <div>
+      <h2 id="info"><u>WHEELS/BEARINGS</u></h2>
+
+<img src="images/image7.jpg" height="135"
+ class="lazyness"/>
+
+<img src="images/image8.jpg" height="130" class="lazyness"/>
+
+
+
+
+    </div>
+
+
+
+<h1><u>Quick Steps</u></h1>
+
+<h3><u>Step 1</u></h3>
+
+
+
+<p> Once you have all the tools and items you will need to assemble the skateboard you will begin by putting the grip tape on the skateboard. This is the most important part of the whole process.  <em>As you apply the griptape make sure you do it evenly to avoid Air Bubbles</em> The griptape must be applied patiently. Centered and then correctly filed around the edges and cut in the shape of the skateboard.</p>
+
+
+<h3><u>Step 2</u></h3>
+
+<p>Once your grip tape is applied you will proceed it make guide holes for your trucks. You will use your screws to set up the trucks make sure they're facing each other. Then  tighten the trucks using the T-tool. <em>
+   <h1><u>*Quick Tip*</u></h1>
+<h1>  The tighter you screw on your trucks is the tigher your skateboard will ride. That is where the concept of riding tight or loose originated.<h1>
+
+
+
+
+</p>
+
+
+<h3><u>Step 3</u></h3>
+
+<p> Next you will put your bearings inside your wheels by putting the bearing inside and pushing down on the trucks once they are tighten.
+
+</p>
+
+<h3><u>Step 4</u></h3>
+
+<p> Once you have your bearings and wheels on the skateboard you will tighten the trucks to your liking. Beware if you have tighter truck it will be stiffer to turn. So <em>finding a level that your confortable with will come with time</em>
+
+
+</p>
+
+<h3><u>Step 5</u></h3>
+
+<p> You're all set now ready to <em>pick your stance and learn some new tricks</em> Luckily there is plenty of free skateparks around Miami that have close to your communities!<br><br>
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="box"></div>
+
+
+
+
+      <!-- Relative -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- Absolute Remote -->
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+      <script>
+        //Write a comment
+        //Start of script
+        $(document).ready(function(){
+            //All code should be placed below
+            // $(".box").hide();
+            $("body").css("background-color", "lightpink");
+            $("h2").css("color", "black");
+            $("#changeText").css("font-size", "40px");
+            $("#changeText").html("HOW TO SET UP A SKATEBOARD");
+            $("#changeText").click(function(){
+              $("body").css("background-color", "lightblue");
+            });
+
+
+
+            //end of change text click
+
+              $("#info").mouseenter(function(){
+                $("#recepticle").html("<h2>Items you will need to set up the Skateboard</h2>");
+                $("#info").css("background-color", "lightblue");
+              });
+              $("#info").mouseleave(function(){
+                $("").html("");
+                $("#info").css("background-color", "lightblue");
+              });
+
+
+//eng of hover effect
+
+
+
+              $("#image1").click(function(){
+                $("#imageRecepticle").html('<img id="image1" src="images/image3.jpg" height="300" class="Intro">');
+              });
+              $("#image2").click(function(){
+                $("#imageRecepticle").html('<img src="images/image1.jpg" height="300" class="lazy"/>');
+              });
+
+
+
+              // $("#hide").click(function(){
+              //   $(".box").hide();
+              // });
+              // $("#show").click(function(){
+              //   $(".box").show();
+              // });
+              // $("#toggle").click(function(){
+              //   $(".box").toggle(1000);
+              // });
+          });
+
+
+          //end of document ready
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+<p>Nicolas Giraldo</p>
+<p>Guide to setting up a skateboard</p>
+
+
+</footer>
+
+
+
+
+  </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+</html>
