@@ -142,14 +142,18 @@
 
 <h3><u>Step 2</u></h3>
 
-<p>Once your grip tape is applied you will proceed it make guide holes for your trucks. You will use your screws to set up the trucks make sure they're facing each other. Then  tighten the trucks using the T-tool. <em>
-   <h1><u>*Quick Tip*</u></h1>
-<h1>  The tighter you screw on your trucks is the tigher your skateboard will ride. That is where the concept of riding tight or loose originated.<h1>
+<p>Once your grip tape is applied you will proceed it make guide holes for your trucks. You will use your screws to set up the trucks make sure they're facing each other. Then  tighten the trucks using the T-tool.</p>
+
+
+   <h5 id="Show"><u>*Click to see a Quick Tip*</u></h5>
+
+
+<div id="funfact" class="funfactid">  The tighter you screw on your trucks is the tigher your skateboard will ride. That is where the concept of riding tight or loose originated.</div>
 
 
 
 
-</p>
+
 
 
 <h3><u>Step 3</u></h3>
@@ -204,12 +208,24 @@
             //All code should be placed below
             // $(".box").hide();
             $("body").css("background-color", "lightpink");
-            $("h2").css("color", "black");
+            $("h2").css("color", "white");
             $("#changeText").css("font-size", "40px");
-            $("#changeText").html("HOW TO SET UP A SKATEBOARD");
+            $("#changeText").html("LET'S SET UP A SKATEBOARD");
+
+
             $("#changeText").click(function(){
-              $("body").css("background-color", "lightblue");
-            });
+            $("body").css("background-color", "lightblue");
+
+          });
+
+// toggle feauture for quick Tip
+          $("#funfact").hide();
+
+          $("#Show").click(function(){
+            $("#funfact").toggle();
+
+
+          });
 
 
 
