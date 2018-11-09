@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Playfair+Display');
+
+
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+body{
+text-align: center;
+background: gold;
+width: 80%;
+height: 0 auto;
+margin: 0 auto;
+
+
+}
+
+
+
+h1{
+
+
+  text-align: center;
+
+  font-family: 'Fjalla One', sans-serif;
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+
+  }
+
+  h2{
+
+background-color: red;
+    text-align: center;
+
+    font-family: 'Fjalla One', sans-serif;
+
+    width: 80%;
+    height: 0 auto;
+    margin: 0 auto;
+
+    padding-top: 10px;
+    }
+
+h5{
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+
+
+
+  font-family: 'Playfair Display', serif;
+
+
+
+}
+
+
+
+
+
+
+
+p{
+
+
+
+
+
+
+  text-align: center;
+
+
+
+
+  font-family: 'Playfair Display', serif;
+
+
+
+}
+
+/* background colors brief paragraph */
+
+
+.backgroundcolor{
+
+width: 80%;
+
+
+
+
+
+}
+
+
+footer{
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+
+
+  height: 70px;
+  background-color: lightgrey;
+
+
+
+
+
+}
+/* image size for intro */
+
+
+
+
+.introsize{
+  height: 100px;
+
+
+
+
+
+}
