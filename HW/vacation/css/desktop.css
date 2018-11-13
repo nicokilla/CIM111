@@ -127,11 +127,17 @@ footer{
 }
 /* image size for intro */
 
+.inline{
+  background-color: red;
 
+
+
+
+}
 
 
 img{
-  height: 120px;
+  height: 110px;
 
 
 
