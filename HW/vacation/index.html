@@ -8,13 +8,25 @@
     <meta charset="utf-8">
 
 
-
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
 
     <style>
     </style>
 
 
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+$('.flexslider').flexslider({
+  animation: "slide",
+  animationLoop: false,
+  itemWidth: 500,
+  itemMargin: 5
+});
+});
 
+    </script>
 
   </head>
 
@@ -24,7 +36,7 @@
 <header>
 
 
-  <h1><u>Let's go to Barcelona</u></h1>
+  <h1><u>Força Barça</u></h1>
   <br>
 
 </header>
@@ -40,7 +52,6 @@ Soccer has been my passion ever since I remember. My whole life revolved around 
 
 
 </h5>
-<br>
 
 
 
@@ -54,13 +65,8 @@ Soccer has been my passion ever since I remember. My whole life revolved around 
 <br>
 
 
-<img src="images/image2.jpg"/>
-<img src="images/image3.jpg"/>
-<img src="images/image4.jpg"/>
-<img src="images/image5.jpg"/>
-<img src="images/image6.jpg"/>
 
-</div>
+
 
 <h1 class="inline"> <u>Must Experience Locations</u></h1>
 
@@ -77,7 +83,39 @@ Soccer has been my passion ever since I remember. My whole life revolved around 
 
 
 </ul>
-<br>
+
+
+
+
+
+<!-- Place somewhere in the <body> of your page -->
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="images/image2.jpg"/>
+    </li>
+    <li>
+      <img src="images/image3.jpg"/>
+    </li>
+    <li>
+      <img src="images/image4.jpg"/>
+    </li>
+    <li>
+      <img src="images/image5.jpg"/>
+    </li>
+    <li>
+      <img src="images/image6.jpg"/>
+    </li>
+
+  </ul>
+</div>
+
+
+
+
+
+
+
 <!-- <a href="http://com.miami.edu">Click here to visit <strong>UM School of Communication</strong></a> -->
 
 <footer>
