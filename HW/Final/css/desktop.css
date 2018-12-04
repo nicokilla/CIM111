@@ -18,7 +18,7 @@ margin-right: -10px;
 }
 main{
 
-height: 2200px;
+height: 2300px;
 background-color: red;
 
 
@@ -146,7 +146,7 @@ margin: 0 auto;
 
 
 }
-h4{
+h2{
 
   text-align: center;
 
@@ -157,13 +157,14 @@ h4{
 #box{
     background-color: lightgrey;
 
-    width: 80%;
+    width: 100%;
     height: auto;
 
 
     padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+
 
 
     /* border-style: dashed; */
@@ -188,15 +189,15 @@ h4{
 
 }
 
-
+/*
 .wrapper{
 margin: 0 auto;
 width: 1000px;
 height: 500px;
 
 
-}
-
+} */
+/*
 .videowrapper{
   position: relative;
   padding-bottom: 56.25%;
@@ -219,14 +220,14 @@ height: 500px;
 
 
 
-}
+} */
 
      /* footer */
 
 
 
 
-     footer{
+footer{
 
 background-color: lightgrey;
 
@@ -236,3 +237,154 @@ height: 100px;
 
 
      }
+   /* about us box */
+
+
+
+
+
+   p{
+color: black;
+font-size: 20px;
+text-align: center;
+
+font-family: 'Exo', sans-serif;
+
+
+
+   }
+
+
+
+
+strong{
+
+  font-size: 30px;
+font-family: 'Exo', sans-serif;
+text-align: center;
+
+
+
+
+}
+iframe{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+ h1{
+
+text-align: center;
+color: red;
+
+
+
+
+
+ }
+h4{
+
+text-align: center;
+
+
+
+}
+h1{
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+                               /* artist members */
+
+
+                                 ul{
+                                 margin-left: 0 auto;
+                                 padding: 0px;
+
+                                 text-align: center;
+
+
+
+
+
+
+
+                               }
+
+                                ul li{
+                                 list-style: none;
+                                 display: inline-block;
+                                 padding-left: 0px;
+                                 text-align: center;
+                                 margin-right: 30px;
+
+
+                               /* font-family: 'Exo', sans-serif; */
+
+                               font-family: 'Playfair Display', serif;
+
+                               }
+.artistlist{
+
+
+
+  font-size: 30px;
+  padding-left: 85px;
+  
+}
+
+.memberstitle{
+background-color: red;
+color: white;
+
+
+
+
+
+
+
+}
+.artists{
+
+  background-color: black;
+  height: 0 auto;
+}
+.gtstitle{
+background-color: black;
+
+
+
+
+
+
+}
+h2{
+
+
+
+  color: white;
+}
+.flyers{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+
+}
+.contact{
+  text-align: center;
+
+
+
+
+
+
+
+}
