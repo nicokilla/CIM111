@@ -40,12 +40,9 @@ nav ul li{
 
 }
 
-h1{
 
 
 
-  color: red;
-}
 
 
                       /* //logo in the middle design */
@@ -276,16 +273,7 @@ text-align: center;
 
 
 }
- h1{
 
-text-align: center;
-color: red;
-
-
-
-
-
- }
 h4{
 
 text-align: center;
@@ -294,9 +282,10 @@ text-align: center;
 
 }
 h1{
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
+  background-color: red;
+
 }
                                /* artist members */
 
@@ -385,3 +374,46 @@ h2{
 
 
 }
+
+
+
+
+         /* collums with grid */
+
+
+
+         #grid1{
+         display: grid;
+         /* width: 80%; */
+         grid-template-areas: "col1 col2";
+         grid-template-rows: 600px;
+         grid-template-columns: 280px 280px;
+         /* grid-column-start: auto; */
+
+
+
+
+         }
+
+         #col1{
+         grid-area: col1;
+         /* width: 40%; */
+         background-color: grey;
+         /* height: 10px; */
+
+
+
+         }
+
+
+         #col2{
+         grid-area: col2;
+         /* width: 40%; */
+         background-color: grey;
+         /* height: 100px; */
+
+         padding-right: 1000px;
+
+
+
+         }
