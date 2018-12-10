@@ -18,7 +18,7 @@ margin-right: -10px;
 }
 main{
 
-height: 2300px;
+height: 2200px;
 background-color:red;
 
 
@@ -114,8 +114,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: white;
-    text-decoration: overline underline;
+    color: grey;
+    text-decoration: none;
     padding: 0px;
 
 
@@ -151,73 +151,7 @@ h2{
 
   font-size: 20px;
 }
-#box{
-    background-color: lightgrey;
 
-    width: 100%;
-    height: auto;
-
-
-    padding: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-
-
-    /* border-style: dashed; */
-
-    border-width: 10px 5px 10px 5px;
-    border-color: red;
-    border: solid grey 5px;
-
-    border: solid black;
-
-    margin-left: 50px;
-
-    margin-bottom: 50px;
-
-    margin-top: 50px;
-
-    margin-right: 50px;
-
-    margin: 50px 50px 50px 50px;
-
-    margin: 0 auto;
-
-}
-
-/*
-.wrapper{
-margin: 0 auto;
-width: 1000px;
-height: 500px;
-
-
-} */
-/*
-.videowrapper{
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0px;
-
-
-
-
-}
-.videowrapper iframe{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 100%;
-  width: 100%;
-
-
-
-
-} */
 
      /* footer */
 
@@ -229,7 +163,7 @@ footer{
 background-color: lightgrey;
 
 
-height: 100px;
+height: 50px;
 
 
 
@@ -285,6 +219,7 @@ h1{
   color: white;
   text-align: center;
   background-color: red;
+  font-family: 'Playfair Display', serif;
 
 }
                                /* artist members */
@@ -356,6 +291,8 @@ h2{
 
 
   color: white;
+
+  font-family: 'Playfair Display', serif;
 }
 .flyers{
 
@@ -380,41 +317,18 @@ h2{
 
          /* collums with grid */
 
-
-
-         #grid1{
-         display: grid;
-         /* width: 80%; */
-         grid-template-areas: "col1 col2";
-         grid-template-rows: 600px;
-         grid-template-columns: 280px 280px;
-         /* grid-column-start: auto; */
+.shift{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 
 
 
-         }
+}
+.subtitle{
 
-         #col1{
-         grid-area: col1;
-         /* width: 40%; */
+background-color: lightgrey;
+color: black;
 
-         /* height: 10px; */
-
-
-
-         }
-
-
-         #col2{
-         grid-area: col2;
-         /* width: 40%; */
-padding-right: 1px;
-
-         /* height: 100px; */
-
-
-
-
-
-         }
+}
