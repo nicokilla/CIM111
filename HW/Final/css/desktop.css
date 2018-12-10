@@ -19,7 +19,7 @@ margin-right: -10px;
 main{
 
 height: 2300px;
-background-color:black;
+background-color:red;
 
 
 
@@ -267,7 +267,7 @@ text-align: center;
 
 
 }
-iframe{
+.vidcenter{
 
   display: block;
   margin-left: auto;
