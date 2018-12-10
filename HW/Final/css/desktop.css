@@ -398,7 +398,7 @@ h2{
          #col1{
          grid-area: col1;
          /* width: 40%; */
-         background-color: grey;
+
          /* height: 10px; */
 
 
@@ -409,10 +409,11 @@ h2{
          #col2{
          grid-area: col2;
          /* width: 40%; */
-         background-color: grey;
+padding-right: 1px;
+
          /* height: 100px; */
 
-         padding-right: 1000px;
+
 
 
 
